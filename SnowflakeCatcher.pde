@@ -4,7 +4,7 @@ snowFlake snowFlakes[]= new snowFlake[200];
 void setup()
 {
   //your code here
-  fill(0);
+  fill(0,0,0);
   size(bgSiz,bgSiz);
   rect(-100, -100, 1000, 1000);
   
