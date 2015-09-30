@@ -58,7 +58,7 @@ class snowFlake
   void show()
   {
     noStroke();
-    fill(255, 255, 255);
+    fill(0, 255, 255);
     ellipse(snowX,snowY,siz-2,siz-2);
   }
   void lookDown()
