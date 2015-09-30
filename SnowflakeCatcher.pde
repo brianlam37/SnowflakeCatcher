@@ -1,10 +1,11 @@
 int siz =8;
-int bgSiz=400;
+int bgSiz=500;
 snowFlake snowFlakes[]= new snowFlake[200];
 void setup()
 {
   //your code here
-  
+  fill(0,0,0);
+rect(-100, -100, 1000, 1000);
   size(bgSiz,bgSiz);
   
   
@@ -15,8 +16,7 @@ void setup()
 }
 }
 void draw()
-{fill(0,0,0);
-rect(-100, -100, 1000, 1000);
+{
 
 
       for(int i=0;i<snowFlakes.length;i++){
@@ -58,7 +58,7 @@ class snowFlake
   void show()
   {
     noStroke();
-    fill(0, 255, 255);
+    fill(255, 255, 255);
     ellipse(snowX,snowY,siz-2,siz-2);
   }
   void lookDown()
