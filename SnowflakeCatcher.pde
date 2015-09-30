@@ -1,5 +1,5 @@
 int siz =8;
-int bgSiz=500;
+int bgSiz=400;
 snowFlake snowFlakes[]= new snowFlake[200];
 void setup()
 {
