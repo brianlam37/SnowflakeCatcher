@@ -5,7 +5,7 @@ void setup()
 {
   //your code here
   fill(0,0,0);
-  size(bgSiz,bgSiz);
+  size(500,500);
   rect(-100, -100, 1000, 1000);
   
     for(int i=0;i<snowFlakes.length;i++){
