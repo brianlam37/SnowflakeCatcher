@@ -4,10 +4,9 @@ snowFlake snowFlakes[]= new snowFlake[200];
 void setup()
 {
   //your code here
-  fill(0,0,0);
-rect(-100, -100, 1000, 1000);
+  fill(0);
   size(bgSiz,bgSiz);
-  
+  rect(-100, -100, 1000, 1000);
   
     for(int i=0;i<snowFlakes.length;i++){
         
@@ -17,8 +16,6 @@ rect(-100, -100, 1000, 1000);
 }
 void draw()
 {
-
-
       for(int i=0;i<snowFlakes.length;i++){
             snowFlakes[i].erase();
             snowFlakes[i].lookDown();
@@ -89,3 +86,6 @@ class snowFlake
     }  
   }
 }
+
+
+
