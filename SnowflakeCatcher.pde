@@ -29,7 +29,7 @@ void mouseDragged()
 {
   //your code here
         if(mouseButton==LEFT){
-            fill(255, 0, 255);
+            fill(255, (int)(Math.random()*255), 255);
             ellipse(mouseX,mouseY,10,10);
         }
         if(mouseButton==RIGHT){
