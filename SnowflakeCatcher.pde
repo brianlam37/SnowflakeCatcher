@@ -29,7 +29,7 @@ void mouseDragged()
 {
   //your code here
         if(mouseButton==LEFT){
-            fill(255, 0, 0);
+            fill(255, 0, 255);
             ellipse(mouseX,mouseY,10,10);
         }
         if(mouseButton==RIGHT){
@@ -86,6 +86,3 @@ class snowFlake
     }  
   }
 }
-
-
-
