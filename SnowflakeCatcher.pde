@@ -6,7 +6,7 @@ void setup()
   size(500,500);
   fill(0,0,0);
   
-  rect(-100, -100, 1000, 1000);
+  rect(-100, -100, 10000, 10000);
   
     for(int i=0;i<snowFlakes.length;i++){
         
