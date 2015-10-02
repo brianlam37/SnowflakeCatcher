@@ -3,9 +3,9 @@ int bgSiz=500;
 snowFlake snowFlakes[]= new snowFlake[200];
 void setup()
 {
-  //your code here
-  fill(0,0,0);
   size(500,500);
+  fill(0,0,0);
+  
   rect(-100, -100, 1000, 1000);
   
     for(int i=0;i<snowFlakes.length;i++){
@@ -86,3 +86,5 @@ class snowFlake
     }  
   }
 }
+
+
